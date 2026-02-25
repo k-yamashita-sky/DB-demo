@@ -1,0 +1,10 @@
+# docker-compose.yml
+services:
+  frontend:
+    build: .
+    container_name: supabase_demo_frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_SUPABASE_URL=http://host.docker.internal:54321
+      - REACT_APP_SUPABASE_ANON_KEY=sb_publishable_ACJWlzQHlZjBrEguHvfOxg_3BJgxAaH

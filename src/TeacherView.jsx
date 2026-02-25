@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { supabase } from './supabase';
+import supabase from './supabase';
 
 // 最初にデータベースから全部情報をとってきてフロントで処理する方針
 //データ量が少ないのでこっちの方が問合せ遅延がなくてよい　←勉強になった
