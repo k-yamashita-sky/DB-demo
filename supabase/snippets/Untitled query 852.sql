@@ -1,1 +1,0 @@
-INSERT INTO "public"."teachers" ("teacher_id", "teacher_name") VALUES ('101', '寺内鞍'), ('102', '田尻朋美'), ('103', '内村海凪');

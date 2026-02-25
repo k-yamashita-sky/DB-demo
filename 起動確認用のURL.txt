@@ -1,0 +1,5 @@
+フロントエンドのURL
+http://localhost:3000
+
+バックエンドのURL
+http://localhost:54323
