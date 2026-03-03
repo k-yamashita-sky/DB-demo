@@ -1,6 +1,7 @@
 dockerのコンテナをビルド＆起動
 supabaseも叩き起こす
-cd "C:\Users\2025005\Documents\インターンシップ関連\DB_project\supabase-demo"
+cd $HOME\Desktop
+cd DB-demo-main
 supabase start
 docker compose up -d --build
 
@@ -8,6 +9,20 @@ docker compose up -d --build
 コンテナの停止
 docker compose down
 
+
+コンテナを一時停止
+docker compose stop
+
+コンテナの一時停止からの再開
+docker compose start
+
+コンテナが存在してるか確認
+docker ps
+
+コンテナのリビルド
+docker compose down
+docker compose build --no-cache
+docker compose up
 
 
 以下作者の嘆き
