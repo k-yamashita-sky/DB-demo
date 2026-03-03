@@ -19,6 +19,11 @@ docker compose start
 コンテナが存在してるか確認
 docker ps
 
+コンテナのリビルド
+docker compose down
+docker compose build --no-cache
+docker compose up
+
 
 以下作者の嘆き
 
