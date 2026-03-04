@@ -137,6 +137,7 @@ Run CTRL を押す
 ├── 📄 .gitignore
 ├── 📄 docker-compose.yml
 ├── 📄 README.md
+├── 📄 image.png
 ├── 📄 supabaseのインストール場所.txt
 ├── 📄 コマンド集.txt
 └── 📄 起動確認用のURL.txt
